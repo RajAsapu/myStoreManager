@@ -1,0 +1,12 @@
+version: '3.0'
+services:
+  mongo_db:
+    image: 'mongo:latest'
+    dns_search: [127.0.0.1]
+    container_name: my_mongo_db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=myStoreManager
+      - MONGO_INITDB_ROOT_PASSWORD=myStore@123
+      - MONGO_INITDB_DATABASE=myStoreManager
+    ports:
+      - 27017:27017
