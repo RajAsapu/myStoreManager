@@ -1,4 +1,4 @@
-package controllers;
+package com.mystoremanager.service.controllers;
 
 import org.springframework.stereotype.Controller;
 

@@ -1,4 +1,4 @@
-package dto;
+package com.mystoremanager.service.dto;
 
 public class Store {
     String name;

@@ -1,4 +1,4 @@
-package service;
+package com.mystoremanager.service.service;
 
 import org.springframework.stereotype.Service;
 

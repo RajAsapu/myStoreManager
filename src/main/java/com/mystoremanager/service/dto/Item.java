@@ -1,4 +1,4 @@
-package dto;
+package com.mystoremanager.service.dto;
 
 import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
@@ -32,6 +32,10 @@ public class Item {
         return price;
     }
 
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
     @Override
     public String toString() {
         return "Item{" +
@@ -40,10 +44,6 @@ public class Item {
                 ", price=" + price +
                 ", expiryDate=" + expiryDate +
                 '}';
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
     }
 
     public LocalDate getExpiryDate() {
