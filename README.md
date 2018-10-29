@@ -1,2 +1,2 @@
 # myStoreManager
-iOS application which acts as the virtual store manager
+https://circleci.com/gh/RajAsapu/myStoreManager-service.svg?style=svg
